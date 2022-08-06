@@ -147,7 +147,7 @@
              <source type="application/x-mpegURL" src="{{$chanals->server}}">
             </video> --}}
             <video-js id="my_video_1" class="w-full aspect-video md:aspect-square vjs-default-skin" controls preload="auto" width="640" height="268">
-              <source src="https://d2zihajmogu5jn.cloudfront.net/bipbop-advanced/bipbop_16x9_variant.m3u8" type="application/x-mpegURL">
+              <source src="{{$chanals->server}}" type="application/x-mpegURL">
             </video-js>
        
            
